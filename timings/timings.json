@@ -54,12 +54,12 @@
         "date": "2023-12-05T10:40:26.745Z"
       },
       "last_updated": {
-        "date": "2023-12-05T11:20:49.487Z",
+        "date": "2023-12-05T17:22:40.783Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       },
       "delay": {
-        "unit": "minute",
-        "amount": 1
+        "amount": 1,
+        "unit": "minute"
       }
     }
   },

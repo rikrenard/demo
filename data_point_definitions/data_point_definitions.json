@@ -631,7 +631,8 @@
         "date": "2023-12-05T10:27:34.692Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       },
-      "qualified_key": "patientDemographics.YOUR_GENDER"
+      "qualified_key": "patientDemographics.YOUR_GENDER",
+      "data_point_metadata": []
     }
   },
   {
