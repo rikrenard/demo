@@ -369,14 +369,12 @@
           "description": "",
           "id": "patientId",
           "label": "Patient ID",
+          "options": {
+            "data_point_definition_ids": []
+          },
           "required": true,
           "type": "numeric",
-          "value": "{{data_point:vl6wqpbUo7jg}}",
-          "options": {
-            "data_point_definition_ids": [
-              "vl6wqpbUo7jg"
-            ]
-          }
+          "value": "142146045083649"
         },
         {
           "description": "The author of a note. Should be the ID of a User in Elation.",
@@ -434,7 +432,7 @@
       ],
       "extension_data_point_mappings": [],
       "last_updated": {
-        "date": "2023-12-05T10:50:03.590Z",
+        "date": "2023-12-05T16:30:25.546Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
