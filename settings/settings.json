@@ -16,8 +16,8 @@
         "date": "2023-12-05T09:49:23.777Z"
       },
       "last_updated": {
-        "date": "2023-12-05T11:04:58.281Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+        "date": "2023-12-05T16:45:28.936Z",
+        "user_id": "PaNdwiiaZlvgEpROzlWSD"
       },
       "branding": {
         "accent_color": "#868781",
@@ -80,28 +80,28 @@
             "id": "fQ4y9nI6oboS"
           },
           "client_id": {
+            "id": "IIhpXt2iKs3I",
             "label": "Client ID",
-            "value": "Qq0oymgbCUJJeDE30zvAOCiZRnvDGWv5dx0vWW9t",
             "obfuscated": false,
-            "id": "IIhpXt2iKs3I"
+            "value": "iGhPjb2udF4oVDa2MMTNX6gcDk1SR5nl0Vdx1Fhw"
           },
           "client_secret": {
             "id": "JrOKVy0QqsSK",
             "label": "Client Secret",
             "obfuscated": true,
-            "value": "U2FsdGVkX18pimWuPSMWpBxfDoCd/2VJSvxqk2XIwnxMQqCTCk3X77jPeto3crJ4TtmYIz8hvShMrqjdRtC9jmtfCQh71k/1oj8WHovfGSDBxLmMytMnbar8VwRrTUxv61CM8DgpCpZHJfwVUF2XkeP/z/muJdWoVx68nmVKs8A="
+            "value": "U2FsdGVkX1+UcfIkCkmO8ZGAQIgEuHaYufYlGpd+jzIUxo6glTKuATFeqn1uxBiTUdy4pJAn05hdD7kLqWup/NBe3EhUiKA1fRxy8rtINUNG1/ewmEPlqJpVrwg2yuIS4HrouMtTe0BRgjlzxzKbjcje9GwBDYJtssykHaddruI="
           },
           "password": {
             "id": "TcYDXuLcQ6kh",
             "label": "Password",
             "obfuscated": true,
-            "value": "U2FsdGVkX19lN5rrI44jwWy5pnR27wALHneMJj9+XITDaEpJytwsNnZnUGBiR6W92+cAbVD0i0/tIENIWoTmPg=="
+            "value": "U2FsdGVkX1/zXabYh9a1bQR8WJ9/SSDq7SM5UIPfl1CrhFRk2nxpjIVCV38HVir0EePqQZ8BH4FYmJ9px6q8VQ=="
           },
           "username": {
+            "id": "uAQmbGsr2tIb",
             "label": "Username",
-            "value": "4069-563@api.elationemr.com",
             "obfuscated": false,
-            "id": "uAQmbGsr2tIb"
+            "value": "4069-5210@api.elationemr.com"
           }
         },
         "twilio": {
