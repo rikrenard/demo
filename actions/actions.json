@@ -1,0 +1,528 @@
+[
+  {
+    "type": "action",
+    "action": {
+      "_key": "e41FBab_G52i",
+      "definition_id": "e41FBab_G52i",
+      "title": "Message",
+      "step_definition_id": "gKdDme5eLqon",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:07:09.145Z"
+      },
+      "type": "message",
+      "last_updated": {
+        "date": "2023-12-05T10:09:33.873Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "message_definition_id": "zvT6QuFF9owS"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "f1kFEU_iZ_BA",
+      "definition_id": "f1kFEU_iZ_BA",
+      "title": "Informed Consent",
+      "step_definition_id": "gKdDme5eLqon",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:10:11.017Z"
+      },
+      "type": "form",
+      "last_updated": {
+        "date": "2023-12-05T10:10:20.570Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "form_display_mode": "conversational",
+      "form_definition_id": "NX0d_sAEkJlk"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "l695Fq2SfShh",
+      "definition_id": "l695Fq2SfShh",
+      "title": "Patient Demographics",
+      "step_definition_id": "kaJjAVpkbXSo",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:17:51.554Z"
+      },
+      "type": "form",
+      "last_updated": {
+        "date": "2023-12-05T10:25:58.290Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "form_definition_id": "Cvg0VniyK3w4",
+      "form_display_mode": "conversational"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "KPuEmi-9YlAO",
+      "definition_id": "KPuEmi-9YlAO",
+      "title": "Upload files",
+      "step_definition_id": "kaJjAVpkbXSo",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:31:48.595Z"
+      },
+      "type": "plugin",
+      "plugin_key": "cloudinary",
+      "plugin_action_key": "uploadFiles",
+      "plugin_fields": [
+        {
+          "id": "uploadPreset",
+          "label": "Upload preset",
+          "description": "The name of an upload preset defined for your product environment. If left empty, the preset defined in the extension settings will be used.",
+          "type": "string",
+          "required": false
+        },
+        {
+          "description": "Upload files to the specified folder. If left empty, the folder defined in the extension settings will be used.",
+          "id": "folder",
+          "label": "Folder",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": false,
+          "type": "string",
+          "value": "Third Way Health"
+        },
+        {
+          "id": "tags",
+          "label": "Tags",
+          "description": "A comma-separated string of tags to assign to the uploaded assets.",
+          "type": "string",
+          "required": false
+        }
+      ],
+      "plugin_action_options": {
+        "stakeholders": {
+          "label": "Stakeholder",
+          "mode": "single"
+        }
+      },
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2023-12-05T10:32:11.376Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "objv-t4XM9tZ",
+      "definition_id": "objv-t4XM9tZ",
+      "title": "Message",
+      "step_definition_id": "kaJjAVpkbXSo",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:32:22.490Z"
+      },
+      "type": "message",
+      "last_updated": {
+        "date": "2023-12-05T10:32:26.108Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "message_definition_id": "nTkEnnEqWMCG"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "y1AYszBPkg5R",
+      "definition_id": "y1AYszBPkg5R",
+      "title": "Create Patient",
+      "step_definition_id": "kaJjAVpkbXSo",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:43:38.210Z"
+      },
+      "type": "plugin",
+      "plugin_key": "elation",
+      "plugin_action_key": "createPatient",
+      "plugin_fields": [
+        {
+          "description": "",
+          "id": "firstName",
+          "label": "First name",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "type": "string",
+          "value": "Ricardo"
+        },
+        {
+          "description": "",
+          "id": "lastName",
+          "label": "Last name",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "type": "string",
+          "value": "Renardo"
+        },
+        {
+          "description": "YYYY-MM-DD",
+          "id": "dob",
+          "label": "Date of Birth",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "type": "date",
+          "value": "1997-05-28"
+        },
+        {
+          "description": "Possible values are 'Male', 'Female', 'Other', 'Unknown'",
+          "id": "sex",
+          "label": "Sex",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "type": "string",
+          "value": "Male"
+        },
+        {
+          "description": "The ID of the primary physician associated to the patient",
+          "id": "primaryPhysicianId",
+          "label": "Primary Physician ID",
+          "required": true,
+          "type": "numeric",
+          "value": "141127177601026",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        },
+        {
+          "description": "",
+          "id": "caregiverPracticeId",
+          "label": "Caregiver Practice ID",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "type": "numeric",
+          "value": "141127173275651"
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "description": "",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "mobilePhone",
+          "label": "Mobile phone",
+          "description": "The number will be stored in US national format in Elation",
+          "type": "string",
+          "stringType": "phone",
+          "required": false
+        },
+        {
+          "id": "middleName",
+          "label": "Middle Name",
+          "description": "",
+          "type": "string"
+        },
+        {
+          "id": "actualName",
+          "label": "Actual Name",
+          "description": "",
+          "type": "string"
+        },
+        {
+          "id": "genderIdentity",
+          "label": "Gender identity",
+          "description": "Possible values are 'unknown', 'man', 'woman', 'transgender_man', 'transgender_woman', 'nonbinary', 'option_not_listed', 'prefer_not_to_say', 'two_spirit'",
+          "type": "string"
+        },
+        {
+          "id": "legalGenderMarker",
+          "label": "Legal gender marker",
+          "description": "Possible values are 'M', 'F', 'X', 'U'",
+          "type": "string"
+        },
+        {
+          "id": "pronouns",
+          "label": "Pronouns",
+          "description": "Pronouns by which a patient identifies self. Possible values are 'he_him_his', 'she_her_hers', 'they_them_theirs', 'not_listed'",
+          "type": "string"
+        },
+        {
+          "id": "sexualOrientation",
+          "label": "Sexual orientation",
+          "description": "Possible values are 'unknown', 'straight', 'gay', 'bisexual', 'option_not_listed', 'prefer_not_to_say', 'lesbian', 'queer', 'asexual'",
+          "type": "string"
+        },
+        {
+          "id": "ssn",
+          "label": "SSN",
+          "description": "The Social Security number of the patient",
+          "type": "string"
+        },
+        {
+          "id": "ethnicity",
+          "label": "Ethnicity",
+          "description": "Possible values are 'No ethnicity specified', 'Hispanic or Latino', 'Not Hispanic or Latino', 'Declined to specify'.",
+          "type": "string"
+        },
+        {
+          "id": "race",
+          "label": "Race",
+          "description": "Possible values are 'No race specified', 'American Indian or Alaska Native', 'Asian', 'Black or African American', 'Native Hawaiian or Other Pacific Islander', 'White', 'Declined to specify'.",
+          "type": "string"
+        },
+        {
+          "id": "preferredLanguage",
+          "label": "Preferred language",
+          "description": "Full names e.g. 'English', 'Spanish' or 'French'.",
+          "type": "string"
+        },
+        {
+          "id": "notes",
+          "label": "Notes",
+          "description": "Additional notes about the patient",
+          "type": "string"
+        },
+        {
+          "id": "previousFirstName",
+          "label": "Previous first name",
+          "description": "The previous first name of the patient",
+          "type": "string"
+        },
+        {
+          "id": "previousLastName",
+          "label": "Previous last name",
+          "description": "The previous last name of the patient",
+          "type": "string"
+        }
+      ],
+      "extension_data_points": [
+        {
+          "key": "patientId",
+          "valueType": "number"
+        }
+      ],
+      "extension_data_point_mappings": [
+        {
+          "extension_data_point_key": "patientId",
+          "id": "yRfsmMaBIQ90",
+          "data_point_definition_id": "vl6wqpbUo7jg"
+        }
+      ],
+      "last_updated": {
+        "date": "2023-12-05T10:46:29.646Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "QqCd7OF1eG8W",
+      "definition_id": "QqCd7OF1eG8W",
+      "title": "Create Non-Visit Note",
+      "step_definition_id": "kaJjAVpkbXSo",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:46:34.474Z"
+      },
+      "type": "plugin",
+      "plugin_key": "elation",
+      "plugin_action_key": "createNonVisitNote",
+      "plugin_fields": [
+        {
+          "description": "",
+          "id": "patientId",
+          "label": "Patient ID",
+          "required": true,
+          "type": "numeric",
+          "value": "{{data_point:vl6wqpbUo7jg}}",
+          "options": {
+            "data_point_definition_ids": [
+              "vl6wqpbUo7jg"
+            ]
+          }
+        },
+        {
+          "description": "The author of a note. Should be the ID of a User in Elation.",
+          "id": "authorId",
+          "label": "Author",
+          "required": true,
+          "type": "numeric",
+          "value": "4067",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        },
+        {
+          "id": "category",
+          "label": "Category",
+          "description": "The Category of a note, defaults to \"Problem\". Read the extension documentation for the list of possible values.",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "tags",
+          "label": "Tags",
+          "description": "Comma-separated list of tags IDs",
+          "type": "string",
+          "required": false
+        },
+        {
+          "description": "Text of a note",
+          "id": "text",
+          "label": "Text",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"Patient Visit Note\",\"bold\":true}]},{\"type\":\"p\",\"children\":[{\"text\":\"Demographics:\",\"bold\":true}]},{\"type\":\"p\",\"children\":[{\"text\":\"Age: \"},{\"type\":\"dynamic-variable\",\"variableId\":\"LViBUEv1ooqj\",\"value\":\"patient_age\",\"children\":[{\"text\":\"{{{dynamic_variable:LViBUEv1ooqj}}}\"}],\"status\":\"VALID\"},{\"text\":\"\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Gender: \"},{\"type\":\"dynamic-variable\",\"variableId\":\"2877OwF5I5BD\",\"value\":\"patient_gender\",\"children\":[{\"text\":\"{{{dynamic_variable:2877OwF5I5BD}}}\"}],\"status\":\"VALID\"},{\"text\":\" \"},{\"type\":\"dynamic-variable\",\"variableId\":\"ghqiupz9kx3W\",\"value\":\"patient_gender_other\",\"children\":[{\"text\":\"{{{dynamic_variable:ghqiupz9kx3W}}}\"}],\"status\":\"VALID\"},{\"text\":\"\"}]}]",
+            "stakeholder_ids": [],
+            "dynamic_variable_ids": [
+              "LViBUEv1ooqj",
+              "2877OwF5I5BD",
+              "ghqiupz9kx3W"
+            ],
+            "constant_ids": []
+          },
+          "required": true,
+          "type": "text",
+          "value": "Patient Visit Note\nDemographics:\nAge: {{{dynamic_variable:LViBUEv1ooqj}}}\nGender: {{{dynamic_variable:2877OwF5I5BD}}} {{{dynamic_variable:ghqiupz9kx3W}}}"
+        }
+      ],
+      "extension_data_points": [
+        {
+          "key": "nonVisitNoteId",
+          "valueType": "number"
+        },
+        {
+          "key": "nonVisitNoteBulletId",
+          "valueType": "number"
+        }
+      ],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2023-12-05T10:50:03.590Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "XKuLl_5FF2SQ",
+      "definition_id": "XKuLl_5FF2SQ",
+      "title": "Send SMS (with from number)",
+      "step_definition_id": "n-odv1mp7X3j",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:41:30.518Z"
+      },
+      "type": "plugin",
+      "plugin_key": "twilio",
+      "plugin_action_key": "sendSms",
+      "plugin_fields": [
+        {
+          "label": "\"From\" number",
+          "id": "from",
+          "type": "string",
+          "stringType": "phone",
+          "required": false,
+          "description": "The phone number that will send the text messages, it must be a Twilio phone number that you own. When left blank, the \"From\" number from the extension settings will be used."
+        },
+        {
+          "description": "The phone number you would like to send the text message to.",
+          "id": "recipient",
+          "label": "\"To\" phone number",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "stringType": "phone",
+          "type": "string",
+          "value": "+19033428784"
+        },
+        {
+          "description": "The message you would like to send.",
+          "id": "message",
+          "label": "Message",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"Hi, \"}]},{\"type\":\"p\",\"children\":[{\"text\":\"just a reminder that your Annual Wellness Visit is scheduled. We'd love to make your visit as tailored and efficient as possible. Could you please take a moment to fill out a quick survey? Click the link below to start. Your input is invaluable to us. See you soon!\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"\"},{\"type\":\"hosted-pages-link\",\"stakeholderId\":\"7f0KSxNUtMu_\",\"children\":[{\"text\":\"{{{hosted_pages_link:7f0KSxNUtMu_}}}\"}]},{\"text\":\"\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"\\n\"}]}]",
+            "stakeholder_ids": [
+              "7f0KSxNUtMu_"
+            ],
+            "dynamic_variable_ids": [],
+            "constant_ids": []
+          },
+          "required": true,
+          "type": "text",
+          "value": "Hi, \njust a reminder that your Annual Wellness Visit is scheduled. We'd love to make your visit as tailored and efficient as possible. Could you please take a moment to fill out a quick survey? Click the link below to start. Your input is invaluable to us. See you soon!\n{{{hosted_pages_link:7f0KSxNUtMu_}}}\n\n"
+        }
+      ],
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2023-12-05T10:42:45.924Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "1KOxSHRwoc03",
+      "definition_id": "1KOxSHRwoc03",
+      "title": "Form",
+      "step_definition_id": "n-odv1mp7X3j",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:42:51.709Z"
+      },
+      "type": "form",
+      "last_updated": {
+        "date": "2023-12-05T10:42:58.691Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "form_display_mode": "conversational",
+      "form_definition_id": "Cvg0VniyK3w4"
+    }
+  }
+]

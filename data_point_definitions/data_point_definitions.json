@@ -1,0 +1,754 @@
+[
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "hq50oC1yZLQJ",
+      "definition_id": "hq50oC1yZLQJ",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "patient_id",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "patient_id"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "OrcXawYE_Bgn",
+      "definition_id": "OrcXawYE_Bgn",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "last_name",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "last_name"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "xBS5yput7r1x",
+      "definition_id": "xBS5yput7r1x",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "national_registry_number",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "national_registry_number"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "kHxqJguDSWyi",
+      "definition_id": "kHxqJguDSWyi",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "birth_date",
+      "valueType": "date",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "birth_date"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "_x54AYote04q",
+      "definition_id": "_x54AYote04q",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "email",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "email"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "xKSjGFZ84yOb",
+      "definition_id": "xKSjGFZ84yOb",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "mobile_phone",
+      "valueType": "telephone",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "mobile_phone"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "LKU-K-giNyNu",
+      "definition_id": "LKU-K-giNyNu",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "sex",
+      "valueType": "number",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "sex"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "liK0XjlxoKM9",
+      "definition_id": "liK0XjlxoKM9",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "address.street",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "address.street"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "760FZoupI13V",
+      "definition_id": "760FZoupI13V",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "address.city",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "address.city"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "wIfRSNA6iZu9",
+      "definition_id": "wIfRSNA6iZu9",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "address.state",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "address.state"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "OuizKELHPmCI",
+      "definition_id": "OuizKELHPmCI",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "address.zip",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "address.zip"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "7VCQ6XdgssQP",
+      "definition_id": "7VCQ6XdgssQP",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "preferred_language",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "preferred_language"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "Zf15aLiJ2us3",
+      "definition_id": "Zf15aLiJ2us3",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "address.country",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "address.country"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "TC8Q3Du0nGGs",
+      "definition_id": "TC8Q3Du0nGGs",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "first_name",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "first_name"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "x8BjeGyUiDpE",
+      "definition_id": "x8BjeGyUiDpE",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "phone",
+      "valueType": "telephone",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "phone"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "zSL4M7Dy52iK",
+      "definition_id": "zSL4M7Dy52iK",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "patient_profile",
+      "key": "patient_code",
+      "valueType": "string",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.956Z"
+      },
+      "qualified_key": "patient_code"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "vl6wqpbUo7jg",
+      "definition_id": "vl6wqpbUo7jg",
+      "source_definition_id": "nrvHSDS7dtqV",
+      "category": "extension_action",
+      "key": "Elation-patientid",
+      "valueType": "number",
+      "possibleValues": [],
+      "optional": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:46:29.455Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:46:29.455Z"
+      },
+      "qualified_key": "Elation-patientid"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "RMVeQAmi_20i-ACTIVATION",
+      "definition_id": "RMVeQAmi_20i-ACTIVATION",
+      "key": "ActivationDate",
+      "source_definition_id": "RMVeQAmi_20i",
+      "category": "track",
+      "valueType": "date",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.841Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.841Z"
+      },
+      "qualified_key": "Intake.ActivationDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "RMVeQAmi_20i-COMPLETION",
+      "definition_id": "RMVeQAmi_20i-COMPLETION",
+      "key": "CompletionDate",
+      "source_definition_id": "RMVeQAmi_20i",
+      "category": "track",
+      "valueType": "date",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.841Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.841Z"
+      },
+      "qualified_key": "Intake.CompletionDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "nrvHSDS7dtqV-elation_patientCreatedOrUpdated-patientId",
+      "category": "extension_webhook",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:25:33.400Z"
+      },
+      "definition_id": "nrvHSDS7dtqV-elation_patientCreatedOrUpdated-patientId",
+      "key": "patientId",
+      "source_definition_id": "nrvHSDS7dtqV-elation_patientCreatedOrUpdated",
+      "valueType": "number",
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:25:33.400Z"
+      },
+      "qualified_key": "elation.patientCreatedOrUpdated.patientId"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "nrvHSDS7dtqV-elation_appointmentCreatedOrUpdated-appointmentId",
+      "category": "extension_webhook",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:25:33.400Z"
+      },
+      "definition_id": "nrvHSDS7dtqV-elation_appointmentCreatedOrUpdated-appointmentId",
+      "key": "appointmentId",
+      "source_definition_id": "nrvHSDS7dtqV-elation_appointmentCreatedOrUpdated",
+      "valueType": "number",
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:25:33.400Z"
+      },
+      "qualified_key": "elation.appointmentCreatedOrUpdated.appointmentId"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "gKdDme5eLqon-ACTIVATION",
+      "definition_id": "gKdDme5eLqon-ACTIVATION",
+      "key": "ActivationDate",
+      "source_definition_id": "gKdDme5eLqon",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:56:13.682Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:56:13.682Z"
+      },
+      "qualified_key": "InformedConsent.ActivationDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "gKdDme5eLqon-COMPLETION",
+      "definition_id": "gKdDme5eLqon-COMPLETION",
+      "key": "CompletionDate",
+      "source_definition_id": "gKdDme5eLqon",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:56:13.682Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:56:13.682Z"
+      },
+      "qualified_key": "InformedConsent.CompletionDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "kaJjAVpkbXSo-ACTIVATION",
+      "definition_id": "kaJjAVpkbXSo-ACTIVATION",
+      "key": "ActivationDate",
+      "source_definition_id": "kaJjAVpkbXSo",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:56:24.677Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:56:24.677Z"
+      },
+      "qualified_key": "Intake.ActivationDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "kaJjAVpkbXSo-COMPLETION",
+      "definition_id": "kaJjAVpkbXSo-COMPLETION",
+      "key": "CompletionDate",
+      "source_definition_id": "kaJjAVpkbXSo",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:56:24.677Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:56:24.677Z"
+      },
+      "qualified_key": "Intake.CompletionDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "n-odv1mp7X3j-COMPLETION",
+      "definition_id": "n-odv1mp7X3j-COMPLETION",
+      "key": "CompletionDate",
+      "source_definition_id": "n-odv1mp7X3j",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:40:24.808Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:40:24.808Z"
+      },
+      "qualified_key": "Surveyviatext.CompletionDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "n-odv1mp7X3j-ACTIVATION",
+      "definition_id": "n-odv1mp7X3j-ACTIVATION",
+      "key": "ActivationDate",
+      "source_definition_id": "n-odv1mp7X3j",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:40:24.808Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:40:24.808Z"
+      },
+      "qualified_key": "Surveyviatext.ActivationDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "Li09r_47lqyR",
+      "definition_id": "Li09r_47lqyR",
+      "source_definition_id": "NX0d_sAEkJlk",
+      "category": "form",
+      "key": "",
+      "valueType": "number",
+      "possibleValues": [
+        {
+          "label": "I accept",
+          "value": "0"
+        },
+        {
+          "label": "I do not accept",
+          "value": "1"
+        }
+      ],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:12:36.390Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:16:32.015Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "qualified_key": "informedConsent.beforeWeContinueYouMustMakeSureYouHaveReadAndAcceptedOurConsentAndPrivacyPolicy"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "ho7JqRxdzFX9",
+      "definition_id": "ho7JqRxdzFX9",
+      "source_definition_id": "Cvg0VniyK3w4",
+      "category": "form",
+      "key": "",
+      "valueType": "number",
+      "possibleValues": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:26:28.734Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:26:35.577Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "qualified_key": "patientDemographics.YOUR_AGE"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "1q5Lj2YY5A6R",
+      "definition_id": "1q5Lj2YY5A6R",
+      "source_definition_id": "Cvg0VniyK3w4",
+      "category": "form",
+      "key": "",
+      "valueType": "number",
+      "possibleValues": [
+        {
+          "label": "Male",
+          "value": "0"
+        },
+        {
+          "label": "Female",
+          "value": "1"
+        },
+        {
+          "label": "Non-binary",
+          "value": "2"
+        },
+        {
+          "label": "Prefer not to say",
+          "value": "3"
+        },
+        {
+          "label": "Other",
+          "value": "4"
+        }
+      ],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:26:58.008Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:27:34.692Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "qualified_key": "patientDemographics.YOUR_GENDER"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "FE3_d0urMOSn",
+      "definition_id": "FE3_d0urMOSn",
+      "source_definition_id": "Cvg0VniyK3w4",
+      "category": "form",
+      "key": "",
+      "valueType": "string",
+      "possibleValues": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:27:37.513Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:27:45.954Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "qualified_key": "patientDemographics.OTHER_GENDER"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "ytxckzpBmHjj",
+      "definition_id": "ytxckzpBmHjj",
+      "source_definition_id": "Cvg0VniyK3w4",
+      "category": "form",
+      "key": "",
+      "valueType": "boolean",
+      "possibleValues": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:28:54.137Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:28:56.176Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "qualified_key": "patientDemographics.CHRONIC_CONDITIONS_YES_NO"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "D5nmc_Cjsh-9",
+      "definition_id": "D5nmc_Cjsh-9",
+      "source_definition_id": "Cvg0VniyK3w4",
+      "category": "form",
+      "key": "",
+      "valueType": "numbers_array",
+      "possibleValues": [
+        {
+          "label": "Diabetes",
+          "value": "0"
+        },
+        {
+          "label": " Heart Disease (e.g., Coronary Artery Disease, Heart Failure)",
+          "value": "1"
+        },
+        {
+          "label": "Chronic Respiratory Diseases (e.g., Asthma, COPD)",
+          "value": "2"
+        },
+        {
+          "label": "Hypertension (High Blood Pressure)",
+          "value": "3"
+        },
+        {
+          "label": "Arthritis",
+          "value": "4"
+        },
+        {
+          "label": "Mental Health Conditions (e.g., Depression, Anxiety Disorders)",
+          "value": "5"
+        },
+        {
+          "label": "Chronic Kidney Disease",
+          "value": "6"
+        },
+        {
+          "label": "Other",
+          "value": "7"
+        }
+      ],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:29:00.197Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:30:06.684Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "qualified_key": "patientDemographics.LIST_CHRONIC_CONDITIONS"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "5zhOgV1VYxQk",
+      "definition_id": "5zhOgV1VYxQk",
+      "source_definition_id": "Cvg0VniyK3w4",
+      "category": "form",
+      "key": "",
+      "valueType": "string",
+      "possibleValues": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:30:07.841Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:30:17.589Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "qualified_key": "patientDemographics.OTHER_MEDICAL_CONDITIONS"
+    }
+  }
+]

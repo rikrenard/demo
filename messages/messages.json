@@ -1,0 +1,46 @@
+[
+  {
+    "type": "message",
+    "message": {
+      "_key": "zvT6QuFF9owS",
+      "definition_id": "zvT6QuFF9owS",
+      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"Hello! \"}]},{\"type\":\"p\",\"children\":[{\"text\":\"We're looking forward to seeing you for your upcoming Annual Wellness Visit. To ensure we make the most of your appointment, please take a moment to fill out a brief pre-visit survey. Your responses will help us tailor the visit to your specific health needs and concerns. \"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Simply click next to get started. Thank you for helping us provide you with the best care possible!\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"See you soon,\\n[Practice Name]\"}]}]",
+      "dynamic_variable_definition_ids": [],
+      "html_body": "<p class=\"slate-p\">Hello! </p><p class=\"slate-p\">We&#x27;re looking forward to seeing you for your upcoming Annual Wellness Visit. To ensure we make the most of your appointment, please take a moment to fill out a brief pre-visit survey. Your responses will help us tailor the visit to your specific health needs and concerns. </p><p class=\"slate-p\">Simply click next to get started. Thank you for helping us provide you with the best care possible!</p><p class=\"slate-p\">See you soon,<br/>[Practice Name]</p>",
+      "attachments": null,
+      "format": "html",
+      "subject": "Your Annual Wellness Visit is Scheduled!",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:07:09.230Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:09:24.614Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "constant_ids": []
+    }
+  },
+  {
+    "type": "message",
+    "message": {
+      "_key": "nTkEnnEqWMCG",
+      "definition_id": "nTkEnnEqWMCG",
+      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"To ensure a smooth and hassle-free experience for your upcoming wellness visit, we kindly request you to upload your insurance details. Having this information ahead of time helps us to expedite the billing process and ensures that you receive the full benefits of your coverage.\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Steps for Uploading Insurance Details:\",\"bold\":true}]},{\"type\":\"ol\",\"children\":[{\"type\":\"li\",\"children\":[{\"type\":\"lic\",\"children\":[{\"text\":\"Locate Your Insurance Card:\",\"bold\":true},{\"text\":\" Please have your insurance card ready. This contains all the necessary information we need.\"}]}]},{\"type\":\"li\",\"children\":[{\"type\":\"lic\",\"children\":[{\"text\":\"Access the Insurance Section:\",\"bold\":true},{\"text\":\" In the bottom, navigate to next.\"}]}]},{\"type\":\"li\",\"children\":[{\"type\":\"lic\",\"children\":[{\"text\":\"Upload Photos of Your Card:\",\"bold\":true},{\"text\":\" Use your phone to take clear pictures of the front and back of your insurance card. Make sure all details are legible.\"}]}]}]},{\"type\":\"p\",\"children\":[{\"text\":\"\\nThanks!\"}]}]",
+      "dynamic_variable_definition_ids": [],
+      "html_body": "<p class=\"slate-p\">To ensure a smooth and hassle-free experience for your upcoming wellness visit, we kindly request you to upload your insurance details. Having this information ahead of time helps us to expedite the billing process and ensures that you receive the full benefits of your coverage.</p><p class=\"slate-p\"><strong class=\"slate-bold\">Steps for Uploading Insurance Details:</strong></p><ol class=\"slate-ol\"><li class=\"slate-li\"><div style=\"position:relative\"><strong class=\"slate-bold\">Locate Your Insurance Card:</strong> Please have your insurance card ready. This contains all the necessary information we need.</div></li><li class=\"slate-li\"><div style=\"position:relative\"><strong class=\"slate-bold\">Access the Insurance Section:</strong> In the bottom, navigate to next.</div></li><li class=\"slate-li\"><div style=\"position:relative\"><strong class=\"slate-bold\">Upload Photos of Your Card:</strong> Use your phone to take clear pictures of the front and back of your insurance card. Make sure all details are legible.</div></li></ol><p class=\"slate-p\"><br/>Thanks!</p>",
+      "attachments": null,
+      "format": "html",
+      "subject": "Upload Your Insurance Details",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:32:22.577Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:36:57.417Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "constant_ids": []
+    }
+  }
+]

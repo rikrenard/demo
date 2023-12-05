@@ -1,0 +1,27 @@
+[
+  {
+    "type": "track",
+    "track": {
+      "_key": "RMVeQAmi_20i",
+      "definition_id": "RMVeQAmi_20i",
+      "title": "Intake",
+      "key": "Intake",
+      "start_coordinates": {
+        "x": 266,
+        "y": 266
+      },
+      "end_coordinates": {
+        "x": 1536,
+        "y": 810
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.841Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:40:33.021Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]

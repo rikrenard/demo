@@ -1,0 +1,23 @@
+[
+  {
+    "type": "trigger",
+    "trigger": {
+      "_key": "CCgZoGEfCDDv",
+      "definition_id": "CCgZoGEfCDDv",
+      "pathway_id": "nrvHSDS7dtqV",
+      "target_id": "RMVeQAmi_20i",
+      "target_type": "track",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.900Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.923Z"
+      },
+      "settings": {
+        "type": "pathway_started"
+      }
+    }
+  }
+]

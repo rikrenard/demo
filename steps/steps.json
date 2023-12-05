@@ -1,0 +1,89 @@
+[
+  {
+    "type": "step",
+    "step": {
+      "_key": "gKdDme5eLqon",
+      "type": "step",
+      "definition_id": "gKdDme5eLqon",
+      "title": "Informed Consent",
+      "key": "InformedConsent",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "e41FBab_G52i",
+        "f1kFEU_iZ_BA"
+      ],
+      "track_definition_id": "RMVeQAmi_20i",
+      "coordinates": {
+        "x": 464,
+        "y": 240
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:56:13.682Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:16:46.097Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "kaJjAVpkbXSo",
+      "type": "step",
+      "definition_id": "kaJjAVpkbXSo",
+      "title": "Intake",
+      "key": "Intake",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "l695Fq2SfShh",
+        "objv-t4XM9tZ",
+        "KPuEmi-9YlAO",
+        "y1AYszBPkg5R",
+        "QqCd7OF1eG8W"
+      ],
+      "track_definition_id": "RMVeQAmi_20i",
+      "coordinates": {
+        "x": 896,
+        "y": 240
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:56:24.677Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:46:34.507Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "n-odv1mp7X3j",
+      "type": "step",
+      "definition_id": "n-odv1mp7X3j",
+      "title": "Survey via text",
+      "key": "Surveyviatext",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "XKuLl_5FF2SQ",
+        "1KOxSHRwoc03"
+      ],
+      "track_definition_id": "RMVeQAmi_20i",
+      "coordinates": {
+        "x": 1216,
+        "y": 240
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:40:24.808Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T10:42:51.736Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]

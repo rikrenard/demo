@@ -1,0 +1,130 @@
+[
+  {
+    "type": "settings",
+    "pathway_settings": {
+      "_key": "nrvHSDS7dtqV",
+      "definition_id": "nrvHSDS7dtqV",
+      "reminders": {
+        "amount": 0,
+        "delay": {
+          "amount": 1,
+          "unit": "day"
+        }
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T09:49:23.777Z"
+      },
+      "last_updated": {
+        "date": "2023-12-05T11:04:58.281Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "branding": {
+        "accent_color": "#868781",
+        "hosted_page_auto_progress": true,
+        "hosted_page_title": "Third Way Health",
+        "logo_url": "https://res.cloudinary.com/da7x4rzl4/image/upload/v1701769775/STAGING%20-%20Awell%20Studio%20-%20TextEditor%20-%20Image%20upload/iwe56kf5rjtjwjky3w4i.jpg"
+      },
+      "plugins": {
+        "cloudinary": {
+          "cloudName": {
+            "id": "5A3PUYy8wGeW",
+            "label": "Cloud name",
+            "obfuscated": false,
+            "value": "da7x4rzl4"
+          },
+          "folder": {
+            "id": "J_LseWAybFiA",
+            "label": "Folder",
+            "obfuscated": false,
+            "value": "Third Way Health"
+          },
+          "uploadPreset": {
+            "id": "FLYgU5lV2nOO",
+            "label": "Upload preset",
+            "obfuscated": false,
+            "value": "dzblqs8p"
+          }
+        },
+        "dropboxSign": {
+          "apiKey": {
+            "id": "pNSyu7Q0p08H",
+            "label": "API Key",
+            "obfuscated": true,
+            "value": "U2FsdGVkX1/r2Yuum2Os3Usd9yeoyWeqIFiSYfk5dUFCCYJsLeW648xCb7tABr2Ok/jIw/B3JX++I55nU+fm7wTrdNEIohbSf0EdzYxDUGxXehAO4fVrj/FZ2BYsLMHx"
+          },
+          "clientId": {
+            "id": "PNmMl286htyu",
+            "label": "Client ID",
+            "obfuscated": false,
+            "value": "7f48e228322885b30909982839aebb42"
+          },
+          "testMode": {
+            "id": "U4pVJjwqARG6",
+            "label": "Test mode",
+            "obfuscated": false,
+            "value": "Yes"
+          }
+        },
+        "elation": {
+          "auth_url": {
+            "id": "PZd3Cll6FMIT",
+            "label": "Authorization URL",
+            "obfuscated": false,
+            "value": "https://sandbox.elationemr.com/api/2.0/oauth2/token"
+          },
+          "base_url": {
+            "label": "Base URL",
+            "value": "https://sandbox.elationemr.com/api/2.0",
+            "obfuscated": false,
+            "id": "fQ4y9nI6oboS"
+          },
+          "client_id": {
+            "label": "Client ID",
+            "value": "Qq0oymgbCUJJeDE30zvAOCiZRnvDGWv5dx0vWW9t",
+            "obfuscated": false,
+            "id": "IIhpXt2iKs3I"
+          },
+          "client_secret": {
+            "id": "JrOKVy0QqsSK",
+            "label": "Client Secret",
+            "obfuscated": true,
+            "value": "U2FsdGVkX18pimWuPSMWpBxfDoCd/2VJSvxqk2XIwnxMQqCTCk3X77jPeto3crJ4TtmYIz8hvShMrqjdRtC9jmtfCQh71k/1oj8WHovfGSDBxLmMytMnbar8VwRrTUxv61CM8DgpCpZHJfwVUF2XkeP/z/muJdWoVx68nmVKs8A="
+          },
+          "password": {
+            "id": "TcYDXuLcQ6kh",
+            "label": "Password",
+            "obfuscated": true,
+            "value": "U2FsdGVkX19lN5rrI44jwWy5pnR27wALHneMJj9+XITDaEpJytwsNnZnUGBiR6W92+cAbVD0i0/tIENIWoTmPg=="
+          },
+          "username": {
+            "label": "Username",
+            "value": "4069-563@api.elationemr.com",
+            "obfuscated": false,
+            "id": "uAQmbGsr2tIb"
+          }
+        },
+        "twilio": {
+          "accountSid": {
+            "id": "kV1cHhf6p9u4",
+            "label": "Account SID",
+            "obfuscated": true,
+            "value": "U2FsdGVkX196QpvPHS5PXu56dQWQTb9IPdLbY1D0OG/KnqE5kVA+EZMvT4xlgFIgFmUQ4lBERQMFc3/YuiGUUA=="
+          },
+          "authToken": {
+            "id": "6yaUw6i8Mpf_",
+            "label": "Auth token",
+            "obfuscated": true,
+            "value": "U2FsdGVkX1+ww0u6lO0UwKXeWqrOdnmrParHeJoWabEsgsswFOTRab/CyhVVBMXi4rck2NIj24IuR8+K8kHK4g=="
+          },
+          "fromNumber": {
+            "id": "E4Lw5Po5a-1z",
+            "label": "\"From\" number",
+            "obfuscated": false,
+            "value": "+13252402107"
+          }
+        }
+      }
+    }
+  }
+]
