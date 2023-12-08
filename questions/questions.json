@@ -316,5 +316,43 @@
       },
       "rule_definition_id": "aaqzLCUhfLcU"
     }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "YeQqssPJWMa3",
+      "definition_id": "YeQqssPJWMa3",
+      "form_definition_id": "kJrSfM5vkQnC",
+      "dataPointValueType": "number",
+      "questionType": "multiple_choice",
+      "userQuestionType": "multiple_choice",
+      "key": "thePatientDoesNotFitTheEligibilityCriteriaWhatShouldWeDo",
+      "title": "The patient does not fit the eligibility criteria, what should we do?",
+      "options": [
+        {
+          "id": "4y_uXr9jZ5dG",
+          "value": 0,
+          "label": "Exclude"
+        },
+        {
+          "id": "KrSZbDUHgFbv",
+          "value": 1,
+          "label": "Include"
+        }
+      ],
+      "questionConfig": {
+        "recode_enabled": false,
+        "mandatory": false,
+        "use_select": false
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-08T09:53:47.341Z"
+      },
+      "last_updated": {
+        "date": "2023-12-08T09:54:17.899Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
   }
 ]

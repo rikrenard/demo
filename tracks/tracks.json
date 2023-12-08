@@ -8,18 +8,18 @@
       "key": "Intake",
       "start_coordinates": {
         "x": 266,
-        "y": 266
+        "y": 234
       },
       "end_coordinates": {
-        "x": 1568,
-        "y": 810
+        "x": 1856,
+        "y": 634
       },
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
         "date": "2023-12-05T09:49:23.841Z"
       },
       "last_updated": {
-        "date": "2023-12-05T11:20:53.864Z",
+        "date": "2023-12-08T09:58:57.423Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }

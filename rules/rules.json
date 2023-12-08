@@ -50,7 +50,7 @@
       "definition_id": "j5j49csR1aid",
       "conditions": [
         {
-          "id": "JqnLLmO-lZpd",
+          "id": "8LO0olwjT9vw",
           "operand": {
             "type": "number",
             "value": "1"
@@ -65,7 +65,7 @@
         "date": "2023-12-05T10:17:14.072Z"
       },
       "last_updated": {
-        "date": "2023-12-05T10:17:18.892Z",
+        "date": "2023-12-08T09:56:09.420Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
@@ -73,16 +73,26 @@
   {
     "type": "rule",
     "rule": {
-      "_key": "_hH-P4vtiZiD",
-      "definition_id": "_hH-P4vtiZiD",
-      "conditions": [],
+      "_key": "12y_5r4fE490",
+      "definition_id": "12y_5r4fE490",
+      "conditions": [
+        {
+          "id": "9IegIBHJrh1Q",
+          "operand": {
+            "type": "number",
+            "value": "18"
+          },
+          "operator": "is_greater_than",
+          "reference": "ho7JqRxdzFX9"
+        }
+      ],
       "boolean_operator": "and",
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2023-12-05T10:40:26.712Z"
+        "date": "2023-12-08T09:55:27.940Z"
       },
       "last_updated": {
-        "date": "2023-12-05T17:23:30.582Z",
+        "date": "2023-12-08T09:55:37.059Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
@@ -90,17 +100,88 @@
   {
     "type": "rule",
     "rule": {
-      "_key": "OlnOmkS4YxJH",
-      "definition_id": "OlnOmkS4YxJH",
+      "_key": "pc1K6mamiAxw",
+      "definition_id": "pc1K6mamiAxw",
       "conditions": [],
       "boolean_operator": "and",
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2023-12-05T10:43:03.497Z"
+        "date": "2023-12-08T09:55:44.796Z"
       },
       "last_updated": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2023-12-05T10:43:03.497Z"
+        "date": "2023-12-08T09:55:44.796Z"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "euQoYE7wQ4S-",
+      "definition_id": "euQoYE7wQ4S-",
+      "conditions": [
+        {
+          "id": "iZ3qFezhVI7e",
+          "operand": {
+            "type": "number",
+            "value": "0"
+          },
+          "operator": "is_equal_to",
+          "reference": "YeQqssPJWMa3"
+        }
+      ],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-08T09:56:21.918Z"
+      },
+      "last_updated": {
+        "date": "2023-12-08T09:56:35.862Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "Lpr-RxS3mpzA",
+      "definition_id": "Lpr-RxS3mpzA",
+      "conditions": [
+        {
+          "id": "SDS-pgZHg6Iv",
+          "operand": {
+            "type": "number",
+            "value": "1"
+          },
+          "operator": "is_equal_to",
+          "reference": "YeQqssPJWMa3"
+        }
+      ],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-08T09:56:43.727Z"
+      },
+      "last_updated": {
+        "date": "2023-12-08T09:56:55.211Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "Rb21gk5DNzet",
+      "definition_id": "Rb21gk5DNzet",
+      "conditions": [],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-08T09:58:54.809Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-08T09:58:54.809Z"
       }
     }
   },

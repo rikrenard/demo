@@ -16,7 +16,7 @@
         "date": "2023-12-05T09:49:23.777Z"
       },
       "last_updated": {
-        "date": "2023-12-06T11:21:12.650Z",
+        "date": "2023-12-08T09:59:53.393Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       },
       "branding": {
@@ -74,10 +74,10 @@
             "value": "https://sandbox.elationemr.com/api/2.0/oauth2/token"
           },
           "base_url": {
+            "id": "fQ4y9nI6oboS",
             "label": "Base URL",
-            "value": "https://sandbox.elationemr.com/api/2.0",
             "obfuscated": false,
-            "id": "fQ4y9nI6oboS"
+            "value": "https://sandbox.elationemr.com/api/2.0"
           },
           "client_id": {
             "id": "IIhpXt2iKs3I",
@@ -104,6 +104,26 @@
             "value": "4069-5210@api.elationemr.com"
           }
         },
+        "sendgrid-extension": {
+          "apiKey": {
+            "id": "X18BzHrEpW16",
+            "label": "API Key",
+            "obfuscated": true,
+            "value": "U2FsdGVkX1/k4AldUUCacJ9amZMNSsJEZWHcKHAddYM="
+          },
+          "fromEmail": {
+            "id": "mq58VnNJomXH",
+            "label": "From email",
+            "obfuscated": false,
+            "value": "ddd"
+          },
+          "fromName": {
+            "id": "7ptpwgXg1M6Z",
+            "label": "From name",
+            "obfuscated": false,
+            "value": "ddd"
+          }
+        },
         "twilio": {
           "accountSid": {
             "id": "kV1cHhf6p9u4",
@@ -122,6 +142,20 @@
             "label": "\"From\" number",
             "obfuscated": false,
             "value": "+13252402107"
+          }
+        },
+        "healthie": {
+          "apiUrl": {
+            "label": "API url",
+            "value": "https://staging-api.gethealthie.com/graphql",
+            "obfuscated": false,
+            "id": "CVmPj29jFNX0"
+          },
+          "apiKey": {
+            "label": "API key",
+            "value": "U2FsdGVkX18+vJuDC4vTU1JOiX6Vrqc3QVjdCsU7eFrgeJg54pYNPmo1QnHfzTj4K6NvqcEKHAYd/cl33f59o5dK0hXOYUSVS1jC/rRjqOIBm6xTHyM3D0jixWRafjO4",
+            "obfuscated": true,
+            "id": "gtVLUfSIP9vA"
           }
         }
       }
