@@ -66,5 +66,25 @@
         "date": "2023-12-05T10:50:03.173Z"
       }
     }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "lmygaqn_d46T",
+      "definition_id": "lmygaqn_d46T",
+      "transformations": [],
+      "data_point_definition_id": "5XMlMcB8ZCwU",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "patient_firstname",
+      "created": {
+        "user_id": "6nB4oJh72WUq2SvhNJxhh",
+        "date": "2023-12-13T15:40:26.219Z"
+      },
+      "last_updated": {
+        "user_id": "6nB4oJh72WUq2SvhNJxhh",
+        "date": "2023-12-13T15:40:26.219Z"
+      }
+    }
   }
 ]

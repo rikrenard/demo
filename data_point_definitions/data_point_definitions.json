@@ -1205,6 +1205,27 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "phq_2.PHQ2_SCORE",
+      "definition_id": "phq_2.PHQ2_SCORE",
+      "source_definition_id": "phq_2",
+      "category": "calculation",
+      "key": "phq_2.PHQ2_SCORE",
+      "valueType": "number",
+      "possibleValues": [],
+      "created": {
+        "user_id": "system",
+        "date": "2023-10-30T09:55:32.636Z"
+      },
+      "last_updated": {
+        "user_id": "system",
+        "date": "2023-10-30T09:55:32.636Z"
+      },
+      "qualified_key": "phq_2.PHQ2_SCORE"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "1q5Lj2YY5A6R",
       "definition_id": "1q5Lj2YY5A6R",
       "source_definition_id": "Cvg0VniyK3w4",
@@ -1360,6 +1381,103 @@
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       },
       "qualified_key": "patientDemographics.OTHER_MEDICAL_CONDITIONS"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "5XMlMcB8ZCwU",
+      "definition_id": "5XMlMcB8ZCwU",
+      "source_definition_id": "Cvg0VniyK3w4",
+      "category": "form",
+      "key": "",
+      "valueType": "string",
+      "possibleValues": [],
+      "created": {
+        "user_id": "6nB4oJh72WUq2SvhNJxhh",
+        "date": "2023-12-13T15:38:43.890Z"
+      },
+      "last_updated": {
+        "date": "2023-12-13T15:38:58.798Z",
+        "user_id": "6nB4oJh72WUq2SvhNJxhh"
+      },
+      "qualified_key": "patientDemographics.firstName"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "-BKuofux-r06",
+      "definition_id": "-BKuofux-r06",
+      "source_definition_id": "VBuh3_63dX3Y",
+      "category": "form",
+      "key": "",
+      "valueType": "number",
+      "possibleValues": [
+        {
+          "label": "Not at all",
+          "value": "0"
+        },
+        {
+          "label": "Several days",
+          "value": "1"
+        },
+        {
+          "label": "More than half the days",
+          "value": "2"
+        },
+        {
+          "label": "Nearly every day",
+          "value": "3"
+        }
+      ],
+      "created": {
+        "user_id": "HFxpKNBYvfcOYc4B07GLy",
+        "date": "2022-11-02T12:58:55.115Z"
+      },
+      "last_updated": {
+        "user_id": "HFxpKNBYvfcOYc4B07GLy",
+        "date": "2022-11-02T12:58:55.115Z"
+      },
+      "qualified_key": "PHQ2.PHQ2_Q01"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "uqjTJrlUFYjX",
+      "definition_id": "uqjTJrlUFYjX",
+      "source_definition_id": "VBuh3_63dX3Y",
+      "category": "form",
+      "key": "",
+      "valueType": "number",
+      "possibleValues": [
+        {
+          "label": "Not at all",
+          "value": "0"
+        },
+        {
+          "label": "Several days",
+          "value": "1"
+        },
+        {
+          "label": "More than half the days",
+          "value": "2"
+        },
+        {
+          "label": "Nearly every day",
+          "value": "3"
+        }
+      ],
+      "created": {
+        "user_id": "HFxpKNBYvfcOYc4B07GLy",
+        "date": "2022-11-02T12:58:55.115Z"
+      },
+      "last_updated": {
+        "user_id": "HFxpKNBYvfcOYc4B07GLy",
+        "date": "2022-11-02T12:58:55.115Z"
+      },
+      "qualified_key": "PHQ2.PHQ2_Q02"
     }
   }
 ]

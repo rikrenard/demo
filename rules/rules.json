@@ -102,15 +102,25 @@
     "rule": {
       "_key": "pc1K6mamiAxw",
       "definition_id": "pc1K6mamiAxw",
-      "conditions": [],
+      "conditions": [
+        {
+          "id": "l-JgAedv3EJJ",
+          "operand": {
+            "type": "number",
+            "value": "18"
+          },
+          "operator": "is_less_than_or_equal_to",
+          "reference": "ho7JqRxdzFX9"
+        }
+      ],
       "boolean_operator": "and",
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
         "date": "2023-12-08T09:55:44.796Z"
       },
       "last_updated": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2023-12-08T09:55:44.796Z"
+        "date": "2023-12-13T15:34:48.657Z",
+        "user_id": "6nB4oJh72WUq2SvhNJxhh"
       }
     }
   },

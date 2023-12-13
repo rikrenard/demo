@@ -43,8 +43,8 @@
       ],
       "track_definition_id": "RMVeQAmi_20i",
       "coordinates": {
-        "x": 896,
-        "y": -80
+        "x": 880,
+        "y": 63.99999999999999
       },
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
@@ -68,21 +68,22 @@
       "action_definition_ids": [
         "XKuLl_5FF2SQ",
         "1KOxSHRwoc03",
+        "tlKL8r_v5vcm",
         "piFiNkxgn_o9",
         "i93COMJnAx3V"
       ],
       "track_definition_id": "RMVeQAmi_20i",
       "coordinates": {
-        "x": 1696,
-        "y": -176
+        "x": 1664,
+        "y": -80
       },
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
         "date": "2023-12-05T10:40:24.808Z"
       },
       "last_updated": {
-        "date": "2023-12-08T10:00:06.677Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+        "date": "2023-12-13T15:35:53.494Z",
+        "user_id": "6nB4oJh72WUq2SvhNJxhh"
       }
     }
   },
@@ -100,8 +101,8 @@
       ],
       "track_definition_id": "RMVeQAmi_20i",
       "coordinates": {
-        "x": 1232,
-        "y": 48
+        "x": 1312,
+        "y": 144
       },
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
