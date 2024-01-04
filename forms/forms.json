@@ -2,45 +2,18 @@
   {
     "type": "form",
     "form": {
-      "_key": "NX0d_sAEkJlk",
-      "definition_id": "NX0d_sAEkJlk",
-      "title": "Informed consent",
-      "key": "informedConsent",
+      "_key": "qfddv2MtfKcW",
+      "definition_id": "qfddv2MtfKcW",
+      "title": "\"Intake - Hypertension \"",
+      "key": "intakeHypertension",
       "question_definition_ids": [
-        "RBK6w0Vg_VjK",
-        "Li09r_47lqyR",
-        "j7-vXEQhz3SN"
-      ],
-      "team_ids": [
-        "kWWQXHkshiiGmkm071Ib2"
-      ],
-      "user_id": "WW2H6LFKrNsRkoSoIgIEL",
-      "created": {
-        "user_id": "WW2H6LFKrNsRkoSoIgIEL",
-        "date": "2022-09-29T09:39:17.634Z"
-      },
-      "last_updated": {
-        "date": "2023-12-05T10:14:38.486Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      }
-    }
-  },
-  {
-    "type": "form",
-    "form": {
-      "_key": "Cvg0VniyK3w4",
-      "definition_id": "Cvg0VniyK3w4",
-      "title": "\"Patient Demographics\"",
-      "key": "patientDemographics",
-      "question_definition_ids": [
-        "5XMlMcB8ZCwU",
-        "PrIBo42T_23z",
-        "ho7JqRxdzFX9",
-        "1q5Lj2YY5A6R",
-        "FE3_d0urMOSn",
-        "ytxckzpBmHjj",
-        "D5nmc_Cjsh-9",
-        "5zhOgV1VYxQk"
+        "hcwiXPdjGk9P",
+        "UUallA6evOuN",
+        "NXdAWXRUarGN",
+        "d-H3LoVp6_7u",
+        "LwJO9GH88iy5",
+        "f4xyxL_VBZAq",
+        "qeR3MB-4L7kQ"
       ],
       "team_ids": [
         "kWWQXHkshiiGmkm071Ib2"
@@ -48,59 +21,10 @@
       "user_id": "XAFhJJHIY7e2ly9ygm0G1",
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2023-12-05T10:18:32.143Z"
+        "date": "2024-01-04T09:28:02.348Z"
       },
       "last_updated": {
-        "date": "2023-12-13T16:22:49.164Z",
-        "user_id": "6nB4oJh72WUq2SvhNJxhh"
-      }
-    }
-  },
-  {
-    "type": "form",
-    "form": {
-      "_key": "VBuh3_63dX3Y",
-      "definition_id": "VBuh3_63dX3Y",
-      "title": "PHQ-2",
-      "key": "PHQ2",
-      "question_definition_ids": [
-        "-BKuofux-r06",
-        "uqjTJrlUFYjX"
-      ],
-      "team_ids": [
-        "kWWQXHkshiiGmkm071Ib2"
-      ],
-      "user_id": "6nB4oJh72WUq2SvhNJxhh",
-      "created": {
-        "user_id": "6nB4oJh72WUq2SvhNJxhh",
-        "date": "2022-07-01T12:33:48.956Z"
-      },
-      "last_updated": {
-        "date": "2023-05-03T19:17:15.402Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      }
-    }
-  },
-  {
-    "type": "form",
-    "form": {
-      "_key": "kJrSfM5vkQnC",
-      "definition_id": "kJrSfM5vkQnC",
-      "title": "Form",
-      "key": "form",
-      "question_definition_ids": [
-        "YeQqssPJWMa3"
-      ],
-      "team_ids": [
-        "kWWQXHkshiiGmkm071Ib2"
-      ],
-      "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2023-12-08T09:53:43.983Z"
-      },
-      "last_updated": {
-        "date": "2023-12-08T09:53:47.341Z",
+        "date": "2024-01-04T09:35:57.578Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
