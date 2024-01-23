@@ -16,13 +16,13 @@
       },
       "type": "message",
       "last_updated": {
-        "date": "2024-01-23T12:44:38.803Z",
+        "date": "2024-01-23T14:17:10.582Z",
         "user_id": "6nB4oJh72WUq2SvhNJxhh"
       },
       "message_definition_id": "zvT6QuFF9owS",
       "idle_time": {
-        "unit": "day",
-        "amount": 2
+        "amount": 2,
+        "unit": "day"
       }
     }
   },
