@@ -2,142 +2,27 @@
   {
     "type": "step",
     "step": {
-      "_key": "EYN6OLXJHXsI",
+      "_key": "gKdDme5eLqon",
       "type": "step",
-      "definition_id": "EYN6OLXJHXsI",
-      "title": "Introduction",
-      "key": "Introduction",
+      "definition_id": "gKdDme5eLqon",
+      "title": "Informed Consent",
+      "key": "InformedConsent",
       "label_definition_ids": [],
       "action_definition_ids": [
-        "uwgPfMGo-Yq1",
-        "_Z9nKsDJJyCi",
-        "BvDPIepIZdYh",
-        "BP6M3qlWRsYj",
-        "Expbgl8v9WLt",
-        "790hysEGKVJT"
+        "e41FBab_G52i",
+        "f1kFEU_iZ_BA"
       ],
-      "track_definition_id": "M5gOxDBKyKGE",
+      "track_definition_id": "RMVeQAmi_20i",
       "coordinates": {
-        "x": 768,
-        "y": 208
-      },
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:13:41.205Z"
-      },
-      "last_updated": {
-        "date": "2024-01-04T13:32:58.478Z",
-        "user_id": "3oTUJn59ddtIWqS00u35E"
-      }
-    }
-  },
-  {
-    "type": "step",
-    "step": {
-      "_key": "FB1p9aUxfm8d",
-      "type": "step",
-      "definition_id": "FB1p9aUxfm8d",
-      "title": "[Technical] Get appointment",
-      "key": "[Technical]Getappointment",
-      "label_definition_ids": [],
-      "action_definition_ids": [
-        "UGJQWHj2_04Z",
-        "bnSZw2-Z09tg"
-      ],
-      "track_definition_id": "M5gOxDBKyKGE",
-      "coordinates": {
-        "x": 448,
-        "y": 208
-      },
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:17:14.512Z"
-      },
-      "last_updated": {
-        "date": "2024-01-04T09:24:36.786Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      }
-    }
-  },
-  {
-    "type": "step",
-    "step": {
-      "_key": "bwZ9IPgQpD5t",
-      "type": "step",
-      "definition_id": "bwZ9IPgQpD5t",
-      "title": "High Risk Patient",
-      "key": "HighRiskPatient",
-      "label_definition_ids": [],
-      "action_definition_ids": [
-        "fSwMjS9pabVE",
-        "WxV_pSqnwtCr",
-        "nsgRXYHrg3LW"
-      ],
-      "track_definition_id": "M5gOxDBKyKGE",
-      "coordinates": {
-        "x": 1168,
-        "y": 112
-      },
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:38:40.483Z"
-      },
-      "last_updated": {
-        "date": "2024-01-04T09:46:12.850Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      }
-    }
-  },
-  {
-    "type": "step",
-    "step": {
-      "_key": "ajcC-jzkQSIR",
-      "type": "step",
-      "definition_id": "ajcC-jzkQSIR",
-      "title": "Low Risk Patient",
-      "key": "LowRiskPatient",
-      "label_definition_ids": [],
-      "action_definition_ids": [
-        "MAsyktirw394"
-      ],
-      "track_definition_id": "M5gOxDBKyKGE",
-      "coordinates": {
-        "x": 1168,
-        "y": 320
-      },
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:39:07.108Z"
-      },
-      "last_updated": {
-        "date": "2024-01-04T09:55:05.302Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      }
-    }
-  },
-  {
-    "type": "step",
-    "step": {
-      "_key": "HKelXOPjvTqE",
-      "type": "step",
-      "definition_id": "HKelXOPjvTqE",
-      "title": "HMP - Week 1",
-      "key": "HMP-Week1",
-      "label_definition_ids": [],
-      "action_definition_ids": [
-        "JniXP2ojNfR6"
-      ],
-      "track_definition_id": "Rvhc9wGksHtO",
-      "coordinates": {
-        "x": 384,
+        "x": 464,
         "y": 240
       },
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:57:07.655Z"
+        "date": "2023-12-05T09:56:13.682Z"
       },
       "last_updated": {
-        "date": "2024-01-04T14:39:16.615Z",
+        "date": "2024-01-16T16:23:49.215Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
@@ -145,26 +30,28 @@
   {
     "type": "step",
     "step": {
-      "_key": "uMQHYOw0BfJX",
+      "_key": "kaJjAVpkbXSo",
       "type": "step",
-      "definition_id": "uMQHYOw0BfJX",
-      "title": "High BP (Day 1)",
-      "key": "HighBP(Day1)",
+      "definition_id": "kaJjAVpkbXSo",
+      "title": "Intake",
+      "key": "Intake",
       "label_definition_ids": [],
       "action_definition_ids": [
-        "yIshEJBvBwOz"
+        "l695Fq2SfShh",
+        "objv-t4XM9tZ",
+        "KPuEmi-9YlAO"
       ],
-      "track_definition_id": "Rvhc9wGksHtO",
+      "track_definition_id": "RMVeQAmi_20i",
       "coordinates": {
-        "x": 704,
-        "y": -16
+        "x": 880,
+        "y": 63.99999999999999
       },
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:57:45.146Z"
+        "date": "2023-12-05T09:56:24.677Z"
       },
       "last_updated": {
-        "date": "2024-01-04T10:07:30.914Z",
+        "date": "2024-01-16T16:23:10.080Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
@@ -172,76 +59,57 @@
   {
     "type": "step",
     "step": {
-      "_key": "9cnVVeeM_5YY",
+      "_key": "n-odv1mp7X3j",
       "type": "step",
-      "definition_id": "9cnVVeeM_5YY",
-      "title": "Low BP",
-      "key": "LowBP",
-      "label_definition_ids": [],
-      "action_definition_ids": [],
-      "track_definition_id": "Rvhc9wGksHtO",
-      "coordinates": {
-        "x": 720,
-        "y": 384
-      },
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:57:46.260Z"
-      },
-      "last_updated": {
-        "date": "2024-01-04T09:58:03.057Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      }
-    }
-  },
-  {
-    "type": "step",
-    "step": {
-      "_key": "GKVY6rBLX6Md",
-      "type": "step",
-      "definition_id": "GKVY6rBLX6Md",
-      "title": "HMP - Week 2",
-      "key": "HMP-Week2",
-      "label_definition_ids": [],
-      "action_definition_ids": [],
-      "track_definition_id": "Rvhc9wGksHtO",
-      "coordinates": {
-        "x": 1520,
-        "y": 208
-      },
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T10:05:32.046Z"
-      },
-      "last_updated": {
-        "date": "2024-01-04T10:05:57.712Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      }
-    }
-  },
-  {
-    "type": "step",
-    "step": {
-      "_key": "wmmQPZ_oa5s0",
-      "type": "step",
-      "definition_id": "wmmQPZ_oa5s0",
-      "title": "High BP (Day 3)",
-      "key": "HighBP(Day3)",
+      "definition_id": "n-odv1mp7X3j",
+      "title": "(Eligble) Survey via text",
+      "key": "(Eligble)Surveyviatext",
       "label_definition_ids": [],
       "action_definition_ids": [
-        "SjDFPpD2YgS3"
+        "XKuLl_5FF2SQ",
+        "1KOxSHRwoc03",
+        "tlKL8r_v5vcm",
+        "piFiNkxgn_o9",
+        "i93COMJnAx3V"
       ],
-      "track_definition_id": "Rvhc9wGksHtO",
+      "track_definition_id": "RMVeQAmi_20i",
       "coordinates": {
-        "x": 1056,
-        "y": -16
+        "x": 1664,
+        "y": -80
       },
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T10:07:10.309Z"
+        "date": "2023-12-05T10:40:24.808Z"
       },
       "last_updated": {
-        "date": "2024-01-04T10:07:55.162Z",
+        "date": "2023-12-13T15:35:53.494Z",
+        "user_id": "6nB4oJh72WUq2SvhNJxhh"
+      }
+    }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "BhG7FPNwCjlh",
+      "type": "step",
+      "definition_id": "BhG7FPNwCjlh",
+      "title": "(Not eligible) Activate Holding Tank",
+      "key": "(Noteligible)ActivateHoldingTank",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "jVRdgV0X9xNB"
+      ],
+      "track_definition_id": "RMVeQAmi_20i",
+      "coordinates": {
+        "x": 1312,
+        "y": 144
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-08T09:53:33.492Z"
+      },
+      "last_updated": {
+        "date": "2023-12-08T09:55:22.062Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }

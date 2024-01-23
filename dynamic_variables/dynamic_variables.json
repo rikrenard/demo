@@ -2,88 +2,88 @@
   {
     "type": "dynamic_variable",
     "dynamic_variable": {
-      "_key": "q47fx-rHaDgk",
-      "definition_id": "q47fx-rHaDgk",
+      "_key": "LViBUEv1ooqj",
+      "definition_id": "LViBUEv1ooqj",
       "transformations": [],
-      "data_point_definition_id": "_rOXx1ff089L",
+      "data_point_definition_id": "ho7JqRxdzFX9",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "patient_age",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:48:32.882Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:48:32.882Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "2877OwF5I5BD",
+      "definition_id": "2877OwF5I5BD",
+      "transformations": [],
+      "data_point_definition_id": "1q5Lj2YY5A6R",
+      "data_point_property": "label",
+      "fallback": "",
+      "label": "patient_gender",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:49:34.652Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:49:34.652Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "ghqiupz9kx3W",
+      "definition_id": "ghqiupz9kx3W",
+      "transformations": [
+        {
+          "id": "7IT8ysSWE40m",
+          "type": "add_prefix",
+          "parameters": {
+            "prefix": ";"
+          }
+        }
+      ],
+      "data_point_definition_id": "FE3_d0urMOSn",
+      "data_point_property": "collection_date",
+      "fallback": "",
+      "label": "patient_gender_other",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:50:03.173Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2023-12-05T10:50:03.173Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "lmygaqn_d46T",
+      "definition_id": "lmygaqn_d46T",
+      "transformations": [],
+      "data_point_definition_id": "5XMlMcB8ZCwU",
       "data_point_property": "value",
       "fallback": "",
       "label": "patient_firstname",
       "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:26:13.159Z"
+        "user_id": "6nB4oJh72WUq2SvhNJxhh",
+        "date": "2023-12-13T15:40:26.219Z"
       },
       "last_updated": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:26:13.159Z"
-      }
-    }
-  },
-  {
-    "type": "dynamic_variable",
-    "dynamic_variable": {
-      "_key": "lvwGV04JVJpU",
-      "definition_id": "lvwGV04JVJpU",
-      "transformations": [],
-      "data_point_definition_id": "bmi_imperial.BMI",
-      "data_point_property": "value",
-      "fallback": "",
-      "label": "BMI",
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:38:18.067Z"
-      },
-      "last_updated": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:38:18.067Z"
-      }
-    }
-  },
-  {
-    "type": "dynamic_variable",
-    "dynamic_variable": {
-      "_key": "yH2jhxCLGg6t",
-      "definition_id": "yH2jhxCLGg6t",
-      "transformations": [
-        {
-          "id": "Hy4elnwgtQw6",
-          "type": "format_date",
-          "parameters": {
-            "format": "yyyy/MM/dd"
-          }
-        }
-      ],
-      "data_point_definition_id": "bmi_imperial.BMI",
-      "data_point_property": "collection_date",
-      "fallback": "",
-      "label": "DATE_OF_SUBMISSION",
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:48:08.473Z"
-      },
-      "last_updated": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:48:08.473Z"
-      }
-    }
-  },
-  {
-    "type": "dynamic_variable",
-    "dynamic_variable": {
-      "_key": "fd1SXW-fnZQX",
-      "definition_id": "fd1SXW-fnZQX",
-      "transformations": [],
-      "data_point_definition_id": "UUallA6evOuN",
-      "data_point_property": "label",
-      "fallback": "",
-      "label": "lifestyle-factors",
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:50:20.810Z"
-      },
-      "last_updated": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:50:20.810Z"
+        "user_id": "6nB4oJh72WUq2SvhNJxhh",
+        "date": "2023-12-13T15:40:26.219Z"
       }
     }
   }
