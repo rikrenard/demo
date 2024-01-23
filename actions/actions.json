@@ -16,10 +16,14 @@
       },
       "type": "message",
       "last_updated": {
-        "date": "2023-12-05T10:09:33.873Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+        "date": "2024-01-23T12:44:38.803Z",
+        "user_id": "6nB4oJh72WUq2SvhNJxhh"
       },
-      "message_definition_id": "zvT6QuFF9owS"
+      "message_definition_id": "zvT6QuFF9owS",
+      "idle_time": {
+        "unit": "day",
+        "amount": 2
+      }
     }
   },
   {
