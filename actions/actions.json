@@ -53,6 +53,27 @@
   {
     "type": "action",
     "action": {
+      "_key": "oeeZf-ay1qg6",
+      "definition_id": "oeeZf-ay1qg6",
+      "title": "API call (REST)",
+      "step_definition_id": "gKdDme5eLqon",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-25T16:38:22.516Z"
+      },
+      "type": "api_call",
+      "last_updated": {
+        "date": "2024-01-25T16:38:22.628Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "api_call_definition_id": "JAEna9UKpzaP"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
       "_key": "l695Fq2SfShh",
       "definition_id": "l695Fq2SfShh",
       "title": "Patient Demographics",

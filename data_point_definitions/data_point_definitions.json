@@ -1205,6 +1205,36 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "JAEna9UKpzaP",
+      "definition_id": "JAEna9UKpzaP",
+      "key": "status",
+      "source_definition_id": "JAEna9UKpzaP",
+      "category": "api_call_status",
+      "valueType": "string",
+      "possibleValues": [
+        {
+          "label": "successful",
+          "value": "successful"
+        },
+        {
+          "label": "failed",
+          "value": "failed"
+        }
+      ],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-25T16:38:22.611Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-25T16:38:22.611Z"
+      },
+      "qualified_key": "ApiCall.status"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "phq_2.PHQ2_SCORE",
       "definition_id": "phq_2.PHQ2_SCORE",
       "source_definition_id": "phq_2",

@@ -1,0 +1,31 @@
+[
+  {
+    "type": "api_call",
+    "api_call": {
+      "_key": "JAEna9UKpzaP",
+      "definition_id": "JAEna9UKpzaP",
+      "api_type": "REST",
+      "method": "POST",
+      "key": "ApiCall",
+      "title": "API Call",
+      "headers": [],
+      "body": {
+        "slate": "[{\"type\":\"code_block\",\"lang\":\"json\",\"children\":[{\"type\":\"code_line\",\"children\":[{\"text\":\"{}\"}]}]}]",
+        "plaintext": "{}",
+        "html": "",
+        "dynamic_variable_definition_ids": [],
+        "stakeholder_definition_ids": [],
+        "constant_ids": []
+      },
+      "mappings": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-25T16:38:22.611Z"
+      },
+      "last_updated": {
+        "date": "2024-01-25T16:38:23.150Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]
