@@ -159,27 +159,6 @@
   {
     "type": "action",
     "action": {
-      "_key": "yFDbB2MM1j7l",
-      "definition_id": "yFDbB2MM1j7l",
-      "title": "API call (GraphQL)",
-      "step_definition_id": "kaJjAVpkbXSo",
-      "stakeholder_definition_ids": [],
-      "location_definition_ids": [],
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-25T18:34:20.234Z"
-      },
-      "type": "api_call_graphql",
-      "last_updated": {
-        "date": "2024-01-25T18:34:20.340Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      },
-      "api_call_definition_id": "tzds9Me64WS8"
-    }
-  },
-  {
-    "type": "action",
-    "action": {
       "_key": "XKuLl_5FF2SQ",
       "definition_id": "XKuLl_5FF2SQ",
       "title": "Send SMS (with from number)",
@@ -268,291 +247,6 @@
   {
     "type": "action",
     "action": {
-      "_key": "piFiNkxgn_o9",
-      "definition_id": "piFiNkxgn_o9",
-      "title": "Create Patient",
-      "step_definition_id": "n-odv1mp7X3j",
-      "stakeholder_definition_ids": [],
-      "location_definition_ids": [],
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2023-12-08T09:57:51.978Z"
-      },
-      "type": "plugin",
-      "plugin_key": "elation",
-      "plugin_action_key": "createPatient",
-      "plugin_fields": [
-        {
-          "description": "",
-          "id": "firstName",
-          "label": "First name",
-          "options": {
-            "data_point_definition_ids": []
-          },
-          "required": true,
-          "type": "string",
-          "value": "Ricardo"
-        },
-        {
-          "description": "",
-          "id": "lastName",
-          "label": "Last name",
-          "options": {
-            "data_point_definition_ids": []
-          },
-          "required": true,
-          "type": "string",
-          "value": "Renardo"
-        },
-        {
-          "description": "YYYY-MM-DD",
-          "id": "dob",
-          "label": "Date of Birth",
-          "options": {
-            "data_point_definition_ids": []
-          },
-          "required": true,
-          "type": "date",
-          "value": "1887-05-28"
-        },
-        {
-          "description": "Possible values are 'Male', 'Female', 'Other', 'Unknown'",
-          "id": "sex",
-          "label": "Sex",
-          "options": {
-            "data_point_definition_ids": []
-          },
-          "required": true,
-          "type": "string",
-          "value": "Male"
-        },
-        {
-          "description": "The ID of the primary physician associated to the patient",
-          "id": "primaryPhysicianId",
-          "label": "Primary Physician ID",
-          "required": true,
-          "type": "numeric",
-          "value": "141127177601026",
-          "options": {
-            "data_point_definition_ids": []
-          }
-        },
-        {
-          "description": "",
-          "id": "caregiverPracticeId",
-          "label": "Caregiver Practice ID",
-          "options": {
-            "data_point_definition_ids": []
-          },
-          "required": true,
-          "type": "numeric",
-          "value": "141127173275649"
-        },
-        {
-          "id": "email",
-          "label": "Email",
-          "description": "",
-          "type": "string",
-          "required": false
-        },
-        {
-          "id": "mobilePhone",
-          "label": "Mobile phone",
-          "description": "The number will be stored in US national format in Elation",
-          "type": "string",
-          "stringType": "phone",
-          "required": false
-        },
-        {
-          "id": "middleName",
-          "label": "Middle Name",
-          "description": "",
-          "type": "string"
-        },
-        {
-          "id": "actualName",
-          "label": "Actual Name",
-          "description": "",
-          "type": "string"
-        },
-        {
-          "id": "genderIdentity",
-          "label": "Gender identity",
-          "description": "Possible values are 'unknown', 'man', 'woman', 'transgender_man', 'transgender_woman', 'nonbinary', 'option_not_listed', 'prefer_not_to_say', 'two_spirit'",
-          "type": "string"
-        },
-        {
-          "id": "legalGenderMarker",
-          "label": "Legal gender marker",
-          "description": "Possible values are 'M', 'F', 'X', 'U'",
-          "type": "string"
-        },
-        {
-          "id": "pronouns",
-          "label": "Pronouns",
-          "description": "Pronouns by which a patient identifies self. Possible values are 'he_him_his', 'she_her_hers', 'they_them_theirs', 'not_listed'",
-          "type": "string"
-        },
-        {
-          "id": "sexualOrientation",
-          "label": "Sexual orientation",
-          "description": "Possible values are 'unknown', 'straight', 'gay', 'bisexual', 'option_not_listed', 'prefer_not_to_say', 'lesbian', 'queer', 'asexual'",
-          "type": "string"
-        },
-        {
-          "id": "ssn",
-          "label": "SSN",
-          "description": "The Social Security number of the patient",
-          "type": "string"
-        },
-        {
-          "id": "ethnicity",
-          "label": "Ethnicity",
-          "description": "Possible values are 'No ethnicity specified', 'Hispanic or Latino', 'Not Hispanic or Latino', 'Declined to specify'.",
-          "type": "string"
-        },
-        {
-          "id": "race",
-          "label": "Race",
-          "description": "Possible values are 'No race specified', 'American Indian or Alaska Native', 'Asian', 'Black or African American', 'Native Hawaiian or Other Pacific Islander', 'White', 'Declined to specify'.",
-          "type": "string"
-        },
-        {
-          "id": "preferredLanguage",
-          "label": "Preferred language",
-          "description": "Full names e.g. 'English', 'Spanish' or 'French'.",
-          "type": "string"
-        },
-        {
-          "id": "notes",
-          "label": "Notes",
-          "description": "Additional notes about the patient",
-          "type": "string"
-        },
-        {
-          "id": "previousFirstName",
-          "label": "Previous first name",
-          "description": "The previous first name of the patient",
-          "type": "string"
-        },
-        {
-          "id": "previousLastName",
-          "label": "Previous last name",
-          "description": "The previous last name of the patient",
-          "type": "string"
-        }
-      ],
-      "extension_data_points": [
-        {
-          "key": "patientId",
-          "valueType": "number"
-        }
-      ],
-      "extension_data_point_mappings": [],
-      "last_updated": {
-        "date": "2023-12-08T09:58:45.288Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      }
-    }
-  },
-  {
-    "type": "action",
-    "action": {
-      "_key": "i93COMJnAx3V",
-      "definition_id": "i93COMJnAx3V",
-      "title": "Create a patient",
-      "step_definition_id": "n-odv1mp7X3j",
-      "stakeholder_definition_ids": [],
-      "location_definition_ids": [],
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2023-12-08T10:00:06.645Z"
-      },
-      "type": "plugin",
-      "plugin_key": "healthie",
-      "plugin_action_key": "createPatient",
-      "plugin_fields": [
-        {
-          "description": "The first name of the patient.",
-          "id": "first_name",
-          "label": "First name",
-          "options": {
-            "data_point_definition_ids": []
-          },
-          "required": true,
-          "type": "string",
-          "value": "Ricardo"
-        },
-        {
-          "description": "The last name of the patient.",
-          "id": "last_name",
-          "label": "Last name",
-          "options": {
-            "data_point_definition_ids": []
-          },
-          "required": true,
-          "type": "string",
-          "value": "Renardo"
-        },
-        {
-          "id": "legal_name",
-          "label": "Legal name",
-          "description": "The patient's legal name which will be used in CMS 1500 Claims, Invoices, and Superbills.",
-          "type": "string"
-        },
-        {
-          "id": "skipped_email",
-          "label": "Skipped email.",
-          "description": "When disabled, an email is not required to create the patient.",
-          "type": "boolean"
-        },
-        {
-          "description": "The email address of the patient.",
-          "id": "email",
-          "label": "Email",
-          "options": {
-            "data_point_definition_ids": []
-          },
-          "required": true,
-          "type": "string",
-          "value": "rik+healthietest@awellhealth.com"
-        },
-        {
-          "id": "phone_number",
-          "label": "Phone number",
-          "description": "The phone number of the patient.",
-          "type": "string",
-          "stringType": "phone"
-        },
-        {
-          "id": "send_invite",
-          "label": "Send invite email",
-          "description": "Whether an invite email should be sent to the newly created patient.",
-          "type": "boolean"
-        },
-        {
-          "id": "provider_id",
-          "label": "Provider ID",
-          "description": "This is the ID of the provider and defaults to the user the API key is associated with. Also known as the `dietitian_id`.",
-          "type": "string"
-        }
-      ],
-      "extension_data_points": [
-        {
-          "key": "healthiePatientId",
-          "valueType": "string"
-        }
-      ],
-      "extension_data_point_mappings": [],
-      "last_updated": {
-        "date": "2023-12-08T10:00:29.153Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      }
-    }
-  },
-  {
-    "type": "action",
-    "action": {
       "_key": "tlKL8r_v5vcm",
       "definition_id": "tlKL8r_v5vcm",
       "title": "PHQ-2 Calculation",
@@ -579,6 +273,191 @@
         "user_id": "6nB4oJh72WUq2SvhNJxhh"
       },
       "calculation_definition_id": "phq_2"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "JYcj7LeI7qgD",
+      "definition_id": "JYcj7LeI7qgD",
+      "title": "Create task",
+      "step_definition_id": "n-odv1mp7X3j",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-29T13:11:49.071Z"
+      },
+      "type": "plugin",
+      "plugin_key": "healthie",
+      "plugin_action_key": "createTask",
+      "plugin_fields": [
+        {
+          "description": "The ID of the patient related to this task.",
+          "id": "patientId",
+          "label": "Healthie patient ID",
+          "type": "string",
+          "value": "840587",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        },
+        {
+          "id": "assignToUserId",
+          "label": "Assign to user",
+          "description": "The ID of the user to assign the task to. If none provided, will assign the task to the user the API key is associated with.",
+          "type": "string"
+        },
+        {
+          "description": "The content of the Task.",
+          "id": "content",
+          "label": "Content",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"Patient is eligble for treatment (PHQ2 = \"},{\"type\":\"dynamic-variable\",\"variableId\":\"ofOOZPEct3bu\",\"value\":\"phq2\",\"children\":[{\"text\":\"{{{dynamic_variable:ofOOZPEct3bu}}}\"}],\"status\":\"VALID\"},{\"text\":\"), please do XYZ.\"}]}]",
+            "stakeholder_ids": [],
+            "dynamic_variable_ids": [
+              "ofOOZPEct3bu"
+            ],
+            "constant_ids": []
+          },
+          "required": true,
+          "type": "text",
+          "value": "Patient is eligble for treatment (PHQ2 = {{{dynamic_variable:ofOOZPEct3bu}}}), please do XYZ."
+        },
+        {
+          "id": "dueDate",
+          "label": "Due date",
+          "description": "The due date of the task.",
+          "type": "date"
+        },
+        {
+          "id": "isReminderEnabled",
+          "label": "Is reminder enabled",
+          "description": "Would you like to send reminders for this task?",
+          "type": "boolean"
+        },
+        {
+          "id": "reminderIntervalType",
+          "label": "Reminder interval type",
+          "description": "At what interval would you like to send reminders? The options are \"daily\", \"weekly\", \"once\".",
+          "type": "string"
+        },
+        {
+          "id": "reminderIntervalValue",
+          "label": "Reminder interval value (weekly)",
+          "description": "When interval type is set to \"daily\" or \"once\", leave this field blank. For \"weekly\" interval, send in comma separated all lower-case days of the week (e.g wednesday, friday).",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "reminderIntervalValueOnce",
+          "label": "Reminder interval value (once)",
+          "description": "When the interval type is set to \"daily\" or \"weekly\", leave this field blank. For \"once\" interval, set or select a date.",
+          "type": "date",
+          "required": false
+        },
+        {
+          "id": "reminderTime",
+          "label": "Reminder time",
+          "description": "Time to send the reminder. Expressed in the number of minutes from midnight.",
+          "type": "numeric"
+        }
+      ],
+      "extension_data_points": [
+        {
+          "key": "taskId",
+          "valueType": "string"
+        }
+      ],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-29T13:13:30.780Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "6XOmcEwQzH_h",
+      "definition_id": "6XOmcEwQzH_h",
+      "title": "Create charting note",
+      "step_definition_id": "n-odv1mp7X3j",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-29T13:12:27.003Z"
+      },
+      "type": "plugin",
+      "plugin_key": "healthie",
+      "plugin_action_key": "createChartingNote",
+      "plugin_fields": [
+        {
+          "description": "The ID of the patient you would like to create a charting note for.",
+          "id": "healthie_patient_id",
+          "label": "Healthie Patient ID",
+          "required": true,
+          "type": "string",
+          "value": "840587",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        },
+        {
+          "description": "The ID of the form you would like to create the charting note against.",
+          "id": "form_id",
+          "label": "Form ID",
+          "required": true,
+          "type": "string",
+          "value": "452005",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        },
+        {
+          "description": "The content of the charting note.",
+          "id": "note_content",
+          "label": "Note content",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"Name: \"},{\"type\":\"dynamic-variable\",\"variableId\":\"lmygaqn_d46T\",\"value\":\"patient_firstname\",\"children\":[{\"text\":\"{{{dynamic_variable:lmygaqn_d46T}}}\"}],\"status\":\"VALID\"},{\"text\":\" \"},{\"type\":\"dynamic-variable\",\"variableId\":\"jzYr-4EmMCSM\",\"value\":\"patient_lastname\",\"children\":[{\"text\":\"{{{dynamic_variable:jzYr-4EmMCSM}}}\"}],\"status\":\"VALID\"},{\"text\":\"\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Age: \"},{\"type\":\"dynamic-variable\",\"variableId\":\"LViBUEv1ooqj\",\"value\":\"patient_age\",\"children\":[{\"text\":\"{{{dynamic_variable:LViBUEv1ooqj}}}\"}],\"status\":\"VALID\"},{\"text\":\"\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Gender: \"},{\"type\":\"dynamic-variable\",\"variableId\":\"2877OwF5I5BD\",\"value\":\"patient_gender\",\"children\":[{\"text\":\"{{{dynamic_variable:2877OwF5I5BD}}}\"}],\"status\":\"VALID\"},{\"text\":\"\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Chronic conditions: \"},{\"type\":\"dynamic-variable\",\"variableId\":\"oHUWkajkITIr\",\"value\":\"chronic_conditions\",\"children\":[{\"text\":\"{{{dynamic_variable:oHUWkajkITIr}}}\"}],\"status\":\"VALID\"},{\"text\":\" (\"},{\"type\":\"dynamic-variable\",\"variableId\":\"lWm228gdvkks\",\"value\":\"list_chronic_conditions\",\"children\":[{\"text\":\"{{{dynamic_variable:lWm228gdvkks}}}\"}],\"status\":\"VALID\"},{\"text\":\")\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"PHQ2 score \"},{\"type\":\"dynamic-variable\",\"variableId\":\"ofOOZPEct3bu\",\"value\":\"phq2\",\"children\":[{\"text\":\"{{{dynamic_variable:ofOOZPEct3bu}}}\"}],\"status\":\"VALID\"},{\"text\":\". \"}]}]",
+            "stakeholder_ids": [],
+            "dynamic_variable_ids": [
+              "lmygaqn_d46T",
+              "jzYr-4EmMCSM",
+              "LViBUEv1ooqj",
+              "2877OwF5I5BD",
+              "oHUWkajkITIr",
+              "lWm228gdvkks",
+              "ofOOZPEct3bu"
+            ],
+            "constant_ids": []
+          },
+          "required": true,
+          "type": "html",
+          "value": "<p class=\"slate-p\">Name: <span>{{{dynamic_variable:lmygaqn_d46T}}}</span> <span>{{{dynamic_variable:jzYr-4EmMCSM}}}</span></p><p class=\"slate-p\">Age: <span>{{{dynamic_variable:LViBUEv1ooqj}}}</span></p><p class=\"slate-p\">Gender: <span>{{{dynamic_variable:2877OwF5I5BD}}}</span></p><p class=\"slate-p\">Chronic conditions: <span>{{{dynamic_variable:oHUWkajkITIr}}}</span> (<span>{{{dynamic_variable:lWm228gdvkks}}}</span>)</p><p class=\"slate-p\">PHQ2 score <span>{{{dynamic_variable:ofOOZPEct3bu}}}</span>. </p>"
+        },
+        {
+          "id": "marked_locked",
+          "label": "Mark as locked?",
+          "description": "This field allows you to mark the content as locked.",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "id": "appointment_id",
+          "label": "Appointment ID",
+          "description": "The ID of the appointment you would like the charting note associated with.",
+          "type": "string",
+          "required": false
+        }
+      ],
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-29T13:15:47.787Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
     }
   },
   {

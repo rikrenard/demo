@@ -33,9 +33,6 @@
       "title": "\"Patient Demographics\"",
       "key": "patientDemographics",
       "question_definition_ids": [
-        "0QzYhy4S7qRH",
-        "Np5mNliCv2X8",
-        "x3JzoMtFV59Y",
         "5XMlMcB8ZCwU",
         "PrIBo42T_23z",
         "ho7JqRxdzFX9",
@@ -54,7 +51,7 @@
         "date": "2023-12-05T10:18:32.143Z"
       },
       "last_updated": {
-        "date": "2024-01-25T18:31:51.953Z",
+        "date": "2024-01-29T13:14:00.072Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }

@@ -86,5 +86,85 @@
         "date": "2023-12-13T15:40:26.219Z"
       }
     }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "ofOOZPEct3bu",
+      "definition_id": "ofOOZPEct3bu",
+      "transformations": [],
+      "data_point_definition_id": "phq_2.PHQ2_SCORE",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "phq2",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-29T13:13:29.250Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-29T13:13:29.250Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "jzYr-4EmMCSM",
+      "definition_id": "jzYr-4EmMCSM",
+      "transformations": [],
+      "data_point_definition_id": "PrIBo42T_23z",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "patient_lastname",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-29T13:14:25.474Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-29T13:14:25.474Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "oHUWkajkITIr",
+      "definition_id": "oHUWkajkITIr",
+      "transformations": [],
+      "data_point_definition_id": "ytxckzpBmHjj",
+      "data_point_property": "label",
+      "fallback": "",
+      "label": "chronic_conditions",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-29T13:15:08.848Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-29T13:15:08.848Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "lWm228gdvkks",
+      "definition_id": "lWm228gdvkks",
+      "transformations": [],
+      "data_point_definition_id": "D5nmc_Cjsh-9",
+      "data_point_property": "label",
+      "fallback": "",
+      "label": "list_chronic_conditions",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-29T13:15:37.061Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-29T13:15:37.061Z"
+      }
+    }
   }
 ]
