@@ -159,6 +159,27 @@
   {
     "type": "action",
     "action": {
+      "_key": "yFDbB2MM1j7l",
+      "definition_id": "yFDbB2MM1j7l",
+      "title": "API call (GraphQL)",
+      "step_definition_id": "kaJjAVpkbXSo",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-25T18:34:20.234Z"
+      },
+      "type": "api_call_graphql",
+      "last_updated": {
+        "date": "2024-01-25T18:34:20.340Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "api_call_definition_id": "tzds9Me64WS8"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
       "_key": "XKuLl_5FF2SQ",
       "definition_id": "XKuLl_5FF2SQ",
       "title": "Send SMS (with from number)",

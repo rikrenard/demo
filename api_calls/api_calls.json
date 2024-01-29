@@ -2,28 +2,28 @@
   {
     "type": "api_call",
     "api_call": {
-      "_key": "Rxi90ewzxDDO",
-      "definition_id": "Rxi90ewzxDDO",
-      "api_type": "REST",
+      "_key": "tzds9Me64WS8",
+      "definition_id": "tzds9Me64WS8",
+      "api_type": "GRAPH_QL",
       "method": "POST",
       "key": "ApiCall",
       "title": "API Call",
       "headers": [],
       "body": {
-        "slate": "[{\"type\":\"code_block\",\"lang\":\"json\",\"children\":[{\"type\":\"code_line\",\"children\":[{\"text\":\"{}\"}]}]}]",
-        "plaintext": "{}",
-        "html": "",
+        "constant_ids": [],
         "dynamic_variable_definition_ids": [],
-        "stakeholder_definition_ids": [],
-        "constant_ids": []
+        "html": "",
+        "plaintext": "{\"query\":\"\",\"variables\":\"\"}",
+        "slate": "[{\"type\":\"code_block\",\"lang\":\"json\",\"children\":[{\"type\":\"code_line\",\"children\":[{\"text\":\"\"}]}]}]",
+        "stakeholder_definition_ids": []
       },
       "mappings": [],
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-25T16:52:29.666Z"
+        "date": "2024-01-25T18:34:20.323Z"
       },
       "last_updated": {
-        "date": "2024-01-25T16:52:30.178Z",
+        "date": "2024-01-25T18:35:10.910Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }

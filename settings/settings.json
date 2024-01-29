@@ -16,14 +16,14 @@
         "date": "2023-12-05T09:49:23.777Z"
       },
       "last_updated": {
-        "date": "2024-01-25T18:31:08.254Z",
+        "date": "2024-01-29T12:50:18.471Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       },
       "branding": {
-        "accent_color": "#7b7b7b",
+        "accent_color": "#05acde",
         "hosted_page_auto_progress": true,
-        "hosted_page_title": "Perci Health",
-        "logo_url": "https://res.cloudinary.com/da7x4rzl4/image/upload/v1706207458/STAGING%20-%20Awell%20Studio%20-%20TextEditor%20-%20Image%20upload/hcn5hhx780wsaykga4nk.jpg"
+        "hosted_page_title": "Healthon ",
+        "logo_url": "https://res.cloudinary.com/da7x4rzl4/image/upload/v1706532606/STAGING%20-%20Awell%20Studio%20-%20TextEditor%20-%20Image%20upload/ltxcrrryvhbpphkqfyzu.png"
       },
       "plugins": {
         "cloudinary": {

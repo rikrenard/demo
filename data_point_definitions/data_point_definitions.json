@@ -1205,6 +1205,36 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "tzds9Me64WS8",
+      "definition_id": "tzds9Me64WS8",
+      "key": "status",
+      "source_definition_id": "tzds9Me64WS8",
+      "category": "api_call_status",
+      "valueType": "string",
+      "possibleValues": [
+        {
+          "label": "successful",
+          "value": "successful"
+        },
+        {
+          "label": "failed",
+          "value": "failed"
+        }
+      ],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-25T18:34:20.323Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-25T18:34:20.323Z"
+      },
+      "qualified_key": "ApiCall.status"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "phq_2.PHQ2_SCORE",
       "definition_id": "phq_2.PHQ2_SCORE",
       "source_definition_id": "phq_2",
